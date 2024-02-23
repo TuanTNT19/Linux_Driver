@@ -2,7 +2,6 @@
 #include <linux/gpio.h>     /* Defines functions such as gpio_request/gpio_free */     
 
 
-
 #define DRIVER_AUTHOR "tuantnt08@.com"
 #define DRIVER_DESC   "gpio subsystem"
 
