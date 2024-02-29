@@ -1,0 +1,8 @@
+/{
+	foo_device{
+		compatible = "gpio_base_myself";
+		led67-gpios = <&gpio2 3 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+
+};
