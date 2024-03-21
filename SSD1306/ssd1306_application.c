@@ -26,12 +26,12 @@ int main()
         printf("Open /dev/my_ssd1306 failed. Please check the dev folder\n");
         exit(EXIT_FAILURE);
     }
-    
-    write(fd, "clear", 5);
+
     system("clear");  
+   // write(fd, "clear", 5);
 
     while(1){
-        write(fd, "clear", 5);
+        //write(fd, "clear", 5);
         printf("Enter your data: ");
         fgets(user_cmd, 50, stdin);
         ret = write(fd, user_cmd, 50);
